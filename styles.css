@@ -1,0 +1,881 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playfair", serif;
+}
+
+body {
+    background-color: black;
+    text-align: center;
+}
+
+
+
+#logo-whatsapp {
+    z-index: 10;
+    position: fixed;
+    bottom: 4vh;
+    right: 2vw;
+    width: 2vw;
+    transition: 0.3s;
+}
+
+#logo-whatsapp:hover {
+    opacity: 80%;
+    right: 2.1vw;
+    width: 2.1vw;
+}
+
+#logo-whatsapp:active {
+    opacity: 60%;
+    right: 2.2vw;
+    width: 2.2vw;
+}
+
+#logo-instagram {
+    z-index: 10;
+    position: fixed;
+    bottom: 9%;
+    right: 2vw;
+    width: 2vw;
+    transition: 0.3s;
+}
+
+#logo-instagram:hover {
+    opacity: 80%;
+    right: 2.1vw;
+    width: 2.1vw;
+}
+
+#logo-instagram:active {
+    opacity: 60%;
+    right: 2.2vw;
+    width: 2.2vw;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+}
+
+.galeria img {
+    width: 30%;
+    margin: 5px;
+}
+
+.servicos ul {
+    list-style: none;
+    margin: 10vh auto;
+    max-width: 600px;
+}
+
+.localizacao iframe {
+    max-width: 600px;
+}
+
+ul {
+    display: inline-block;
+}
+
+.navegation {
+    color: #AE0115;
+    text-decoration: none;
+    transition: 0.6;
+}
+
+.navegation:hover {
+    opacity: 80%;
+}
+
+.navegation:active {
+    opacity: 60%;
+}
+
+li {
+    font-size: 2vw;
+    font-weight: 400;
+    margin-left: 5vw;
+    display: inline-block;
+}
+
+header {
+    z-index: 10;
+    margin-top: 2vh;
+    height: 5vh;
+    text-align: center;
+    width: 100%;
+    background-color: #000;
+}
+
+#inicio {
+    margin-bottom: 2vh;
+    color: #fff;
+    background: #000;
+    margin-left: 2vw;
+    text-align: left;
+    padding-right: 5vw;
+    display: inline-block;
+    padding-bottom: 4vh;
+    margin-top: 5vh;
+}
+
+#court {
+    width: 3vw;
+    position: absolute;
+    top: 27.2vh;
+    left: 30vw;
+}
+
+#imagem-inicio {
+    margin-left: 9vw;
+    width: 25vw;
+    display: inline-block;
+}
+
+main {
+    width: 100vw;
+    margin-top: 3vh;
+    background-color: #000;
+    padding-right: 6vw;
+}
+
+#text-inicio {
+    padding: 0;
+    line-height: 35px;
+    font-weight: 400;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    width: 40vw;
+    font-size: 1.8vw;
+}
+
+h1 {
+    text-decoration: underline;
+    line-height: 80px;
+    font-weight: 900;
+    font-size: 5vw;
+    width: 40vw;
+}
+
+#text-paragrafo {
+    line-height: 20px;
+    font-weight: 400;
+    font-size: 1.2vw;
+    width: 40vw;
+    letter-spacing: 0.2px;
+}
+
+
+
+#menu {
+    z-index: 2;
+    margin-top: 5vh;
+    background-color: #000;
+    width: 100vw;
+    display: inline-block;
+    color: #fff;
+}
+
+table {
+    border-radius: 10px;
+    border-spacing: 10px;
+    border-color: #AE0115;
+    margin-left: 5vw;
+    margin-top: 8vh;
+    font-size: 2vw;
+    display: inline-block;
+    font-weight: 700;
+    text-align: left;
+    background-color: #CECECE;
+    color: #000;
+}
+
+#container-menu {
+    display: inline-block;
+    width: 45vw;
+    padding-bottom: 15vh;
+    position: relative;
+    bottom: 150px;
+
+}
+
+#text-menu {
+    text-align: left;
+    padding: 0;
+    line-height: 35px;
+    font-weight: 400;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    width: 45vw;
+    font-size: 2vw;
+
+}
+
+.tetle-h2 {
+    text-align: left;
+    text-decoration: underline;
+    line-height: 80px;
+    font-weight: 900;
+    font-size: 5vw;
+    width: 48vw;
+}
+
+
+
+.galeria {
+    display: inline-block;
+    height: 185vh;
+    width: 100vw;
+    padding-top: 3vh;
+    margin-top: 5vh;
+    background-color: #000;
+    color: #fff;
+}
+
+.videos {
+    margin: 3vh 5vw 0 5vw;
+}
+
+#title-galery {
+    display: inline-block;
+    width: 44vw;
+    margin-bottom: 7vh;
+    text-align: left;
+    margin-left: 36vw;
+}
+
+select {
+    border: none;
+    border-radius: 10px;
+    width: 8vw;
+    display: inline-block;
+    position: relative;
+    bottom: 4vh;
+    color: #AE0115;
+    background-color: #CECECE;
+    font-size: 1.5vw;
+}
+
+#container2 {
+    background-color: #000;
+    width: 100vw;
+}
+
+#textRed {
+    color: #AE0115;
+    text-transform: uppercase;
+}
+
+
+
+#localizacao {
+    margin-top: 5vh;
+    background-color: #000;
+    color: #fff;
+    width: 100vw;
+}
+
+#containerLock {
+    margin-top: 5vh;
+    display: inline-block;
+    width: 50vw;
+}
+
+#imagemLock {
+    display: inline-block;
+    width: 25vw;
+    height: auto;
+    position: relative;
+    top: 15vh;
+}
+
+#linkLock {
+    height: 70vh;
+    width: 50VW;
+    display: inline-block;
+    margin-top: 20vh;
+    margin-bottom: 10vh;
+    border-radius: 15px;
+    border: none;
+}
+
+#pLock {
+    text-align: left;
+    padding: 0;
+    line-height: 35px;
+    font-weight: 400;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    width: 45vw;
+    font-size: 2vw;
+}
+
+
+footer {
+    font-size: 20px;
+    background-color: #525A63;
+    width: 100%;
+    margin: 5vh auto auto auto;
+}
+
+#linkfooter {
+    color: white;
+    font-size: 26px;
+    transition: 0.3s;
+}
+
+#linkfooter:hover {
+    opacity: 80%;
+    font-size: 28px;
+}
+
+#linkfooter:active {
+    opacity: 60%;
+    font-size: 29px;
+}
+
+#containerFooter {
+    margin: 2vh 5vw 3vh auto;
+    display: inline-block;
+}
+
+#containerContact {
+    margin: 2vh auto 3vh 5vw;
+    display: inline-block;
+}
+
+h3 {
+    margin-bottom: 2vh;
+    font-size: 30px;
+}
+
+.navegationFooter {
+    text-decoration: none;
+    display: block;
+    color: #fff;
+    font-size: 26px;
+    transition: 0.3s;
+}
+
+.navegationFooter:hover {
+    opacity: 80%;
+    font-size: 28px;
+}
+
+.navegationFooter:active {
+    opacity: 60%;
+    font-size: 29px;
+}
+
+
+@media screen and (max-width: 1024px) {
+
+    #logo-whatsapp,
+    #logo-instagram {
+        width: 3vw;
+        right: 3vw;
+    }
+
+    #logo-whatsapp:hover,
+    #logo-instagram:hover {
+        width: 3.2vw;
+        right: 3.1vw;
+    }
+
+    #logo-whatsapp:active,
+    #logo-instagram:active {
+        width: 3.4vw;
+        right: 3.2vw;
+    }
+
+    li {
+        font-size: 2.5vw;
+        margin-left: 3vw;
+    }
+
+    #inicio {
+        margin-left: 3vw;
+        padding-right: 3vw;
+    }
+
+    #imagem-inicio {
+        margin-left: 5vw;
+        width: 35vw;
+    }
+
+    #text-inicio {
+        text-align: center;
+        width: 50vw;
+        font-size: 2.2vw;
+        line-height: 30px;
+    }
+
+    h1 {
+        font-size: 6vw;
+        width: 50vw;
+        line-height: 60px;
+        text-align: center;
+    }
+
+
+    #text-paragrafo {
+        font-size: 1.5vw;
+        width: 50vw;
+        line-height: 25px;
+        text-align: center;
+    }
+
+    #court {
+        width: 4vw;
+        top: 25vh;
+        left: 25vw;
+    }
+
+    #container-menu {
+        position: static;
+        width: 55vw;
+        bottom: 100px;
+        padding: 0;
+        text-align: center;
+    }
+
+    #text-menu {
+        width: 55vw;
+        font-size: 2.5vw;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .tetle-h2 {
+        font-size: 6vw;
+        width: 58vw;
+        line-height: 60px;
+        text-align: center;
+    }
+
+    table {
+        font-size: 2.5vw;
+        margin-left: 3vw;
+    }
+
+    .galeria img {
+        width: 45%;
+        margin: 8px;
+    }
+
+    #title-galery {
+        width: 54vw;
+        margin-left: 30vw;
+        text-align: center;
+    }
+
+    select {
+        width: 12vw;
+        font-size: 2vw;
+    }
+
+    #containerLock {
+        width: 60vw;
+    }
+
+    #imagemLock {
+        width: 35vw;
+        top: 10vh;
+    }
+
+    #linkLock {
+        width: 60vw;
+        height: 60vh;
+        margin-top: 15vh;
+    }
+
+    #pLock {
+        width: 55vw;
+        font-size: 2.5vw;
+        line-height: 30px;
+    }
+
+
+    #linkfooter {
+        font-size: 24px;
+    }
+
+    #linkfooter:hover {
+        font-size: 26px;
+    }
+
+    #linkfooter:active {
+        font-size: 27px;
+    }
+
+    .navegationFooter {
+        font-size: 24px;
+    }
+
+    .navegationFooter:hover {
+        font-size: 26px;
+    }
+
+    .navegationFooter:active {
+        font-size: 27px;
+    }
+
+    h3 {
+        font-size: 28px;
+    }
+
+    #court{
+       left: 62vw;
+    }
+
+    #imgRemove {
+        display: none;
+    }
+}
+
+
+@media screen and (max-width: 750px) {
+
+    body{
+        width: 100vw;
+    }
+
+    header{
+        display: none;
+    }
+
+    #logo-instagram {
+        margin-bottom: 10px;
+    }
+
+    #logo-whatsapp,
+    #logo-instagram {
+        width: 50px;
+        right: 10vw;
+
+    }
+
+    #logo-whatsapp:hover,
+    #logo-instagram:hover {
+        width: 52px;
+        right: 18px;
+    }
+
+    #logo-whatsapp:active,
+    #logo-instagram:active {
+        width: 54px;
+        right: 16px;
+    }
+
+    ul {
+        display: block;
+        text-align: center;
+    }
+
+    li {
+        font-size: 18px;
+        margin: 10px 0;
+        display: block;
+        margin-left: 0;
+    }
+
+    #inicio {
+        margin-left: 0;
+        padding: 20px;
+        text-align: center;
+        display: block;
+    }
+
+    #imagem-inicio {
+        margin-left: 0;
+        width: 80vw;
+        display: block;
+        margin: 20px auto;
+    }
+
+    #text-inicio {
+        width: 75vw;
+        font-size: 18px;
+        line-height: 24px;
+        margin: 20px auto;
+    }
+
+    h1 {
+        font-size: 32px;
+        width: 80vw;
+        line-height: 40px;
+        margin: 0 auto;
+    }
+
+    #text-paragrafo {
+        font-size: 16px;
+        width: 80vw;
+        line-height: 22px;
+        margin: 0 auto;
+    }
+
+    #court {
+        display: none;
+    }
+
+    main {
+        padding-right: 0;
+        padding: 20px;
+    }
+
+
+    #menu {
+        padding: 20px;
+    }
+
+    #container-menu {
+        width: 90vw;
+        bottom: 0;
+        position: static;
+        margin: 20px auto;
+        display: block;
+        text-align: center;
+    }
+
+    #text-menu {
+        width: 80vw;
+        font-size: 18px;
+        line-height: 24px;
+        text-align: center;
+    }
+
+    .tetle-h2 {
+        font-size: 28px;
+        width: 80vw;
+        line-height: 36px;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    table {
+        font-size: 16px;
+        margin: 20px auto;
+        display: block;
+        width: 70%;
+    }
+
+    .galeria {
+        height: auto;
+        padding: 20px;
+    }
+
+    .galeria img {
+        width: 80%;
+        margin: 10px auto;
+        display: block;
+    }
+
+    #title-galery {
+        width: 80vw;
+        margin: 20px auto;
+        text-align: center;
+    }
+
+    select {
+        width: 120px;
+        font-size: 16px;
+        margin: 10px auto;
+        display: block;
+        position: static;
+    }
+
+    .videos {
+        margin: 20px auto;
+        width: 70%;
+    }
+
+    #localizacao {
+        padding: 20px;
+    }
+
+    #containerLock {
+        width: 80vw;
+        display: block;
+        margin: 20px auto;
+    }
+
+    #imagemLock {
+        width: 80vw;
+        top: 0;
+        position: static;
+        margin: 20px auto;
+        display: block;
+    }
+
+    #linkLock {
+        width: 90vw;
+        height: 50vh;
+        margin: 20px auto;
+        display: block;
+        position: static;
+    }
+
+    #pLock {
+        width: 90vw;
+        font-size: 16px;
+        line-height: 22px;
+        text-align: center;
+        margin: 20px auto;
+    }
+
+    footer {
+        padding: 20px;
+        text-align: center;
+    }
+
+    #containerFooter,
+    #containerContact {
+        margin: 20px auto;
+        display: block;
+        text-align: center;
+    }
+
+    #linkfooter {
+        font-size: 20px;
+        display: block;
+        margin: 10px 0;
+    }
+
+    #linkfooter:hover {
+        font-size: 22px;
+    }
+
+    #linkfooter:active {
+        font-size: 23px;
+    }
+
+    .navegationFooter {
+        font-size: 18px;
+        margin: 8px 0;
+    }
+
+    .navegationFooter:hover {
+        font-size: 20px;
+    }
+
+    .navegationFooter:active {
+        font-size: 21px;
+    }
+
+    h3 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    .localizacao iframe {
+        max-width: 90vw;
+        height: 300px;
+    }
+
+    .servicos ul {
+        max-width: 90vw;
+        margin: 20px auto;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    #logo-whatsapp,
+    #logo-instagram {
+        width: 40px;
+        right: 15px;
+    }
+
+    #logo-whatsapp:hover,
+    #logo-instagram:hover {
+        width: 42px;
+        right: 13px;
+    }
+
+    #logo-whatsapp:active,
+    #logo-instagram:active {
+        width: 44px;
+        right: 11px;
+    }
+
+    li {
+        font-size: 16px;
+        margin: 8px 0;
+    }
+
+    h1 {
+        font-size: 28px;
+        line-height: 34px;
+    }
+
+    .tetle-h2 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    #text-inicio {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    #text-menu {
+        font-size: 16px;
+        line-height: 22px;
+    }
+
+    #text-paragrafo {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    #pLock {
+        font-size: 14px;
+        line-height: 20px;
+    }
+
+    table {
+        font-size: 14px;
+    }
+
+    select {
+        width: 100px;
+        font-size: 14px;
+    }
+
+    #linkLock {
+        height: 40vh;
+    }
+
+    .localizacao iframe {
+        height: 250px;
+    }
+
+    h3 {
+        font-size: 20px;
+    }
+
+    #linkfooter {
+        font-size: 18px;
+    }
+
+    #linkfooter:hover {
+        font-size: 20px;
+    }
+
+    #linkfooter:active {
+        font-size: 21px;
+    }
+
+    .navegationFooter {
+        font-size: 16px;
+    }
+
+    .navegationFooter:hover {
+        font-size: 18px;
+    }
+
+    .navegationFooter:active {
+        font-size: 19px;
+    }
+}
