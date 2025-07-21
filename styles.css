@@ -10,7 +10,9 @@ body {
     text-align: center;
 }
 
-
+img{
+    border-radius: 5px;
+}
 
 #logo-whatsapp {
     z-index: 10;
